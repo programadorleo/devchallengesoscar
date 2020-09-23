@@ -1,5 +1,12 @@
-<h1>Bienvenidos al {{title}}</h1>
 
-<h2>{{subtitulo}} </h2>
+<h1>
+  Bienvenido a {{title}}
+</h1>
 
-<button (click)="changeTitle()" >Change Title</button>
+<h2> {{encabezado}}</h2>
+
+<select>
+
+  <option *ngFor="let i of meses">{{i}}</option>
+
+</select>
