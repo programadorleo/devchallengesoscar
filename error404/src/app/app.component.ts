@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Error404';
-
+  encabezado =  'Bienvenidos al error 404 ';
+  subtitulo = 'Este es el error 404';
 
   // tslint:disable-next-line: typedef
   changeTitle(){
