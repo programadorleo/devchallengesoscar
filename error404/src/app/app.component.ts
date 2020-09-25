@@ -6,17 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Error404';
-  encabezado =  'Bienvenidos al error 404 ';
-  subtitulo = 'Este es el error 404';
-  // Declaro un array de meses
-
-  meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio'];
-
-  // tslint:disable-next-line: typedef
-  changeTitle(){
-    this.title = 'Not Found Error 404';
-
-  }
+  title = '404 not found';
+  encabezado =  'I have bad news for you ';
+  comentario = 'The page you are looking for might be removed or is temporarily unavailable';
 
 }
